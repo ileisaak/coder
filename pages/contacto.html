@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web formulario de contacto para kiss me stupid">
+    <meta name="keywords"  content="contacto, telefono, email, contacto kiss me estupid">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <script src="js/bootstrap.js"></script>
+
+    <header>
+        <header style="background-color:black">
+            <h6 class="toptext">Envios a todo el pais &#10084; Compras hasta 3 cuotas sin interes</h6>
+    
+            <div class="topnav">
+              <a class="active" href="pages/contacto.html">Contacto</a>
+              <a href="pages/tablas.html">Tablas</a>
+              <a href="pages/prendas.html">Prendas</a>
+              <a href="index.html">Inicio</a>
+            </div>
+    </header>
+
+    <section>
+        <fieldset><legend>Formulario</legend>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" placeholder="Introduce tu nombre">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Direccion de email" required>
+            </div>
+            <div>
+                <label for="motivo">Selecciona tu motivo de consulta</label>
+                <select name="motivo" id="">
+                    <option value="varios">Varios</option>
+                    <option value="rrhh">RRHH</option>
+                    <option value="reclamo">Reclamos</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="texto" placeholder="ingresa tu consulta" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="notificaciones">Deseo recibir notificaciones</label>
+                <input type="radio" name="notificaciones" value="Siempre">Siempre
+                <input type="radio" name="notificaciones" value="Aveces">Aveces
+                <input type="radio" name="notificaciones" value="Nunca">Nunca
+            </div>
+            <div>
+                <input type="submit" value="enviar datos">
+            </div>    
+        </form>
+    </fieldset>
+    </section>
+
+    <footer>
+        <div class="circulo">
+            <img src="images/kslogo.jpg" class="rounded-circle" alt="logo" width="135px" height="120px">
+        </div>
+        
+        <section class="footer">
+            <h4>ventas@kissmestupid.com</h4>
+            <h4>+54 01168539423</h4>
+            <h4>Monte grande, Buenos aires</h4>
+        </section>
+        
+        <section>
+            <table class="redes">
+                <tr>
+                    <td><img src="images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></td>
+                    <td><img src="images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></td> 
+                    <td><img src="images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></td> 
+                </tr> 
+            </table>
+          <h5 class="redes1">Seguinos en las redes</h5>
+        </section>
+    
+    </footer>
+</body>
+</html>
