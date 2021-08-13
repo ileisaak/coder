@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina web formulario de contacto para kiss me stupid">
-    <meta name="keywords"  content="contacto, telefono, email, contacto kiss me estupid">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="keywords"  content="contacto, telefono, email, contacto kiss me stupid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css2/style2.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -17,16 +20,19 @@
         <header style="background-color:black">
             <h6 class="toptext">Envios a todo el pais &#10084; Compras hasta 3 cuotas sin interes</h6>
     
-            <div class="topnav">
-              <a class="active" href="pages/contacto.html">Contacto</a>
-              <a href="pages/tablas.html">Tablas</a>
-              <a href="pages/prendas.html">Prendas</a>
-              <a href="index.html">Inicio</a>
-            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html">Home</a>
+                <a href="./prendas.html">Prendas</a>
+                <a href="./tablas.html">Tabal de talles</a>
+                <a href="./contacto.html" class="active">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
     </header>
 
     <section>
-        <fieldset><legend class="destacados">Formulario</legend>
+        <fieldset><legend class="titheader">Formulario</legend>
         <form action="">
             <div>
                 <label for="nombre">Nombre y Apellido</label>
@@ -61,8 +67,8 @@
     </section>
 
     <footer>
-        <div class="circulo">
-            <img src="images/kslogo.jpg" class="rounded-circle" alt="logo" width="135px" height="120px">
+        <div class="logo">
+            <img src="../images/kslogo.jpg" class="rounded-circle" alt="logo" width="135px" height="120px">
         </div>
         
         <section class="footer">
@@ -74,9 +80,9 @@
         <section>
             <table class="redes">
                 <tr>
-                    <td><img src="images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></td>
-                    <td><img src="images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></td> 
-                    <td><img src="images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></td> 
+                    <td><a href="https://www.instagram.com/"><img src="../images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></a></td>
+                    <td><a href="https://ar.pinterest.com/"><img src="../images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></a></td> 
+                    <td><a href="https://www.whatsapp.com/"><img src="../images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></a></td> 
                 </tr> 
             </table>
           <h5 class="redes1">Seguinos en las redes</h5>

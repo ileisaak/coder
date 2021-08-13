@@ -1,16 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="pagina web guia de talles para kiss me estupid">
-   <meta name="keywords"  content="talles, guia, tabla, kiss me estupid">
-
-
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="pagina web guia de talles para kiss me estupid">
+    <meta name="keywords"  content="talles, guia, tabla, kiss me stupid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css2/style2.css">
     <title>tabla de talles</title>
 </head>
 <body>
@@ -19,19 +19,24 @@
 <header style="background-color:black">
         <h6 class="toptext">Envios a todo el pais &#10084; Compras hasta 3 cuotas sin interes</h6>
 
-        <div class="topnav">
-          <a href="pages/contacto.html">Contacto</a>
-          <a class="active" href="pages/tablas.html">Tablas</a>
-          <a href="pages/prendas.html">Prendas</a>
-          <a href="index.html">Inicio</a>
+        <div class="topnav" id="myTopnav">
+          <a href="../index.html">Home</a>
+          <a href="./prendas.html">Prendas</a>
+          <a href="./tablas.html" class="active">Tabal de talles</a>
+          <a href="./contacto.html">Contacto</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
 
 </header>
 
+<fieldset><legend class="titheader">Tabla de talles</legend>
+
     <div class="container">
       <table class="table">
           <thead>
-          <h2>Medi el contorno de tu cintura, cadera y busto con un centimetro</h2>
+          <h4>Medi el contorno de tu cintura, cadera y busto con un centimetro</h4>
             <tr>
               <th scope="col">Talles</th>
               <th scope="col">Busto</th>
@@ -59,15 +64,13 @@
             </tr>
           </tbody>
         </table>
-        <h4>Trabajamos a pedido, consultanos por tus medidas. A continuacion nuestra paleta de colores disponibles</h4>
-
-      
-      </div>
+        <h6>Trabajamos a pedido, consultanos por tus medidas.</h6>
+    </div>
   
     <footer>
       <footer>
-        <div class="circulo">
-            <img src="images/kslogo.jpg" class="rounded-circle" alt="logo" width="135px" height="120px">
+        <div class="logo">
+            <img src="../images/kslogo.jpg" class="rounded-circle" alt="logo" width="135px" height="120px">
         </div>
         
         <section class="footer">
@@ -79,9 +82,9 @@
         <section>
             <table class="redes">
                 <tr>
-                    <td><img src="images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></td>
-                    <td><img src="images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></td> 
-                    <td><img src="images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></td> 
+                  <td><a href="https://www.instagram.com/"><img src="../images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></a></td>
+                  <td><a href="https://ar.pinterest.com/"><img src="../images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></a></td> 
+                  <td><a href="https://www.whatsapp.com/"><img src="../images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></a></td> 
                 </tr> 
             </table>
           <h5 class="redes1">Seguinos en las redes</h5>

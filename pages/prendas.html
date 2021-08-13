@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina web catalogo de prendas kiss me estupid">
-    <meta name="keywords"  content="lenceria, catalogo, prendas, catalogo kiss me estupid">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="keywords"  content="lenceria, catalogo, prendas, catalogo kiss me stupid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css2/style2.css">
     <title>Prendas</title>
 </head>
 <body>
@@ -15,51 +18,55 @@
     <header style="background-color:black">
       <h6 class="toptext">Envios a todo el pais &#10084; Compras hasta 3 cuotas sin interes</h6>>
       
-      <div class="topnav">
-        <a href="pages/contacto.html">Contacto</a>
-        <a href="pages/tablas.html">Tablas</a>
-        <a class="active" href="pages/prendas.html">Prendas</a>
-        <a href="index.html">Inicio</a>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html">Home</a>
+        <a href="./prendas.html" class="active">Prendas</a>
+        <a href="./tablas.html">Tabal de talles</a>
+        <a href="./contacto.html">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
        
     </header>
 
-    <main>
-        <table>
-            <tr>
-                <td class="ptext">Conjunto Sofia</td>
-                <td>Bombi Annete</td>
-                <td>Conjunto Marie</td>
-            </tr>
-            <tr>
-                <td class="listado"><img src="..\images\conjunto1.jpg" alt="foto producto conjunto lenceria" width="460px"></td>
-                <td class="listado"><img src="..\images\bombi.jpg" alt="foto producto ropa interior" width="460px"></td>
-                <td class="listado"><img src="..\images\conjunto2.jpg" alt="foto producto conjunto lenceria" width="460px"></td>
-            </tr>
-    
-            <tr class="ptext">
-                <td>Pijamita</td>
-                <td>Sales</td>
-                <td>Pantus</td>
-            </tr>
-            <tr>
-                <td class="listado">
-                    <!-- <div class="lala">pija</div> -->
-                    <img src="..\images\pijama.jpg" alt="foto producto ropa para dormir" width="460px" >
-                    <div class="lala">pija</div>
-                    </img>
-                </td>
-                <td class="listado"><img src="..\images\bath salt.jpg" alt="foto producto sales" width="460px" height="460px"></td>
-                <td class="listado"><img src="..\images\pantus.jpg" alt="foto producto pantuflas" width="460px"></td>
-            </tr>
-        </table>
-    </main> 
+    <section>
 
-    <footer>
-      <div class="circulo">
-          <img src="images/kslogo.jpg" class="rounded-circle" alt="logo" width="135px" height="120px">
-      </div>
-      
+    <div class="container-all">
+    <div class="containerp">
+      <img src="../images/pantus.jpg" alt="conjunto de lenceria">
+       <span class="title">Conjunto Sofia</span>
+      <span class="undertext">Conjunto de saten y tul.</span>
+    </div>
+    <div class="containerp">
+      <img src="../images/bombi.jpg" alt="ropa interior">
+      <span class="title">Bombi Rose</span>
+      <span class="undertext">100% algodon con puntilla</span>
+    </div>
+    <div class="containerp">
+      <img src="../images/conjunto1.jpg" alt="conjunto de lenceria">
+       <span class="title">Conjunto Verona</span>
+      <span class="undertext">Conjunto de saten</span>
+    </div>
+    <div class="containerp">
+      <img src="../images/conjunto0.jpg" alt="pantuflas de polar">
+       <span class="title">Pantus</span>
+      <span class="undertext">Pantuflas de polar soft</span>
+    </div>
+    <div class="containerp">
+      <img src="../images/conjunto2.jpg" alt="conjunto de lenceria">
+       <span class="title">Conjunto Marie</span>
+      <span class="undertext">Conjunto de encaje</span>
+    </div>
+    <div class="containerp">
+      <img src="../images/pijama.jpg" alt="pijama de saten">
+       <span class="title">Home Alone</span>
+      <span class="undertext">Pijama de saten y puntilla</span>
+    </div>
+    </div>
+    </section>
+
+  <footer>
       <section class="footer">
           <h4>ventas@kissmestupid.com</h4>
           <h4>+54 01168539423</h4>
@@ -69,9 +76,9 @@
       <section>
           <table class="redes">
               <tr>
-                  <td><img src="images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></td>
-                  <td><img src="images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></td> 
-                  <td><img src="images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></td> 
+                  <td><a href="https://www.instagram.com/"><img src="../images\insta.jpg" class="rounded-circle" alt="instagram" width="90px"></a></td>
+                  <td><a href="https://ar.pinterest.com/"><img src="../images\pinterest.jpg" class="rounded-circle" alt="pinterest" width="90px"></a></td> 
+                  <td><a href="https://www.whatsapp.com/"><img src="../images\wsup.jpg"class="rounded-circle" alt="whatsapp" width="90px"></a></td> 
               </tr> 
           </table>
         <h5 class="redes1">Seguinos en las redes</h5>
